@@ -8,7 +8,7 @@ body {
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    padding: 50px 240px 0px 240px;
+    padding: 41px 240px 0px 240px;
     gap: 97px;
 }
 
@@ -20,7 +20,7 @@ body {
 header {
     /* border: 2px solid lime; */
     width: auto;
-    height: 480px;
+    height: 564px;
 
     background-color: rgba(229, 84, 115, 0.1);
 }
@@ -55,4 +55,35 @@ header {
 .header_img {
     margin-top: 2px;
     width: 100%;
+}
+
+/* navbar */
+/* .nav_bar {
+    margin: auto 0px;
+    /* border: 2px solid rgb(255, 242, 0); */
+
+.nav_bar ul {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    height: 70px;
+    /* border: 2px solid red; */
+    align-items: center;
+
+
+}
+
+.nav_bar ul li {
+    padding: 10px;
+    border-radius: 8px;
+    /* border: 2px solid red; */
+    list-style: none;
+    background-color: #E55473;
+}
+
+.nav_bar ul li a {
+    color: #FFFF;
+    font-weight: 700;
+    text-decoration: none;
 }
