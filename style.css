@@ -95,10 +95,6 @@ button {
 /* header done */
 
 /* main start */
-main {
-    border: 2px solid red;
-}
-
 
 .main_info {
     /* border: 2px solid red; */
@@ -214,7 +210,7 @@ main {
 .delivery_local_support {
     display: flex;
     justify-content: space-around;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 40px 100px 40px 100px;
     gap: 70px;
 }
@@ -229,7 +225,7 @@ main {
 
 .dls {
     width: 900px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,24 +253,25 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 0px 250px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.text h2 {
+.text .insta-details h2 {
     color: #272727;
     font-size: 25px;
     font-weight: 800;
     line-height: normal;
 }
 
+
 .text {
 
-    /* margin-left: 150px; */
+    /* * margin-left: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 }
 
@@ -295,4 +292,41 @@ main {
 
 span {
     color: rgba(229, 84, 115, 1);
+}
+
+.insta {
+    width: 1140px;
+    /* margin: ; */
+    display: flex;
+    gap: 20px;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.instagram {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+}
+
+.insta img {
+    width: 260px;
+    height: 320px;
+}
+
+.insta-details p {
+    text-align: center;
+    border: 2px solid red;
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.insta-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
