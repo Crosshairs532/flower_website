@@ -5,11 +5,14 @@ body {
 
 /* header */
 .header_info {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     align-items: center;
-    padding: 41px 240px 0px 240px;
+    justify-content: space-between;
+    margin: 39px 110px 0px 142px;
     gap: 97px;
+    width: 1140px;
+
 }
 
 /* .half {
@@ -29,20 +32,21 @@ header {
 .header_title h1 {
 
     color: #272727;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
     margin-bottom: 32px;
 }
 
 .header_title p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 11px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
     line-height: 20px;
 }
 
-.header_info button {
+/* / .header_info  */
+button {
     width: 100px;
     color: #FFF;
     font-size: 10px;
@@ -95,12 +99,9 @@ main {
     border: 2px solid red;
 }
 
-section {
-    border: 2px solid rgb(128, 255, 0);
-}
 
 .main_info {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,11 +111,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1100px;
+    justify-content: space-between;
+    width: 1140px;
+    /* border: 2px solid; */
 }
 
 .featured_text {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 500px;
     text-align: center;
     margin-top: 130px;
@@ -131,9 +134,11 @@ section {
 }
 
 .featured_img {
+    width: 1140px;
     gap: 24px;
     display: flex;
-    border: 2px solid rgb(242, 0, 255);
+    justify-content: space-between;
+    /* border: 2px solid rgb(0, 0, 0); */
 
 }
 
@@ -142,7 +147,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgb(0, 255, 21);
+    /* border: 2px solid rgb(0, 255, 21); */
 
 }
 
@@ -200,7 +205,7 @@ section {
 
 .delivery_local_support-container {
     margin-top: 120px;
-    width: 971px;
+    width: 1140px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 
@@ -234,4 +239,60 @@ section {
 .dls img {
     width: 80px;
     height: 80px;
+}
+
+/* delivery_local_support done */
+
+/* HOTDEAL */
+.hot_deal_container {
+
+    margin-top: 128px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot_deal {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+    border: 2px solid red;
+}
+
+.text h2 {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text {
+
+    /* margin-left: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.text p {
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deal img {
+    padding: 80px;
+    width: 315px;
+    height: 400px;
+
+}
+
+span {
+    color: rgba(229, 84, 115, 1);
 }
