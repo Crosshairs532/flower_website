@@ -29,7 +29,8 @@ header {
 }
 
 
-.header_title h1 {
+.header_title>h1,
+.deals h1 {
 
     color: #272727;
     font-size: 48px;
@@ -47,13 +48,15 @@ header {
 
 /* / .header_info  */
 button {
-    width: 100px;
+    width: 120px;
+    height: 50px;
     color: #FFF;
     font-size: 10px;
     border: none;
     border-radius: 8px;
     background: #E55473;
     padding: 12px 12px;
+    font-size: 15px;
 }
 
 .header_img {
@@ -329,4 +332,31 @@ span {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.latest_deal {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    background-image: url('Rectangle\ 9.png');
+    background-size: contain;
+}
+
+.deals {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.deals input {
+    padding: 15px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
 }
