@@ -8,34 +8,27 @@ body {
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 39px 110px 0px 142px;
     gap: 97px;
     width: 1140px;
 
 }
 
-/* .half {
-    /* width: 50%; */
-/* border: 2px solid red; */
-
-
 header {
     /* border: 2px solid lime; */
     width: auto;
     height: 564px;
-
     background-color: rgba(229, 84, 115, 0.1);
 }
 
 
 .header_title>h1,
 .deals h1 {
-
+    margin: 0px;
     color: #272727;
     font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 32px;
+
 }
 
 .header_title p {
@@ -51,7 +44,6 @@ button {
     width: 120px;
     height: 50px;
     color: #FFF;
-    font-size: 10px;
     border: none;
     border-radius: 8px;
     background: #E55473;
@@ -60,38 +52,65 @@ button {
 }
 
 .header_img {
+    margin: 0px auto;
     margin-top: 2px;
     width: 100%;
 }
 
 /* navbar */
-/* .nav_bar {
-    margin: auto 0px;
-    /* border: 2px solid rgb(255, 242, 0); */
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type='search'] {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: #E55473;
+    /* background: transparent; */
+}
+
+
+.nav_bar h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: normal;
+
+}
+
+.logo {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 0px 20px 30px;
+    display: flex;
+
+}
 
 .nav_bar ul {
     padding: 12px;
     display: flex;
-    justify-content: space-around;
     margin: 0px;
     height: 70px;
-    /* border: 2px solid red; */
     align-items: center;
 
 
 }
 
 .nav_bar ul li {
-    padding: 10px;
     border-radius: 8px;
-    /* border: 2px solid red; */
+
+    margin-right: 30px;
     list-style: none;
-    background-color: #E55473;
+
 }
 
 .nav_bar ul li a {
-    color: #FFFF;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(229, 84, 115, 1);
     text-decoration: none;
 }
 
@@ -331,6 +350,7 @@ span {
 .latest_deal {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 1140px;
     height: 300px;
